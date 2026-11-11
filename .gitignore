@@ -1,0 +1,11 @@
+.env
+.env.*
+*.pem
+*.key
+*.token
+credentials*
+secret*
+.DS_Store
+
+# mockserver -regenerate 生成的数据文件
+data.json
