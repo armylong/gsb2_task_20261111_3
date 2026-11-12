@@ -9,3 +9,12 @@ secret*
 
 # mockserver -regenerate 生成的数据文件
 data.json
+
+# 采集器的 sqlite 数据库及 WAL 临时文件
+*.db
+*.db-wal
+*.db-shm
+
+# 本地构建产物
+/bookcrawler
+/mockserver/mockserver
